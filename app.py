@@ -5,9 +5,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
-from utils.data_loader import DataLoader
-from utils.text_processor import TextProcessor
-from utils.model_trainer import ModelTrainer
+from data_loader import DataLoader
+from text_processor import TextProcessor
+from model_trainer import ModelTrainer
 
 # Configure page
 st.set_page_config(
